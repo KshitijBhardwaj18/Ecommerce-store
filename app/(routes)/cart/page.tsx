@@ -14,6 +14,8 @@ const CartPage = () => {
     
     const cart = useCart();
 
+    console.log(cart);
+
     useEffect(() => {
         setIsMounted(true)
     }, [])
